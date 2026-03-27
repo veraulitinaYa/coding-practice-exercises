@@ -3,8 +3,19 @@
 export const splitWordsBySeparator = (words, separator) => {
     // Ваше решение
     let newarray = [];
-    
+    let temparray = [];
 
+    for (let str of words) {
+        temparray = str.split(separator);
+        
+        for (let word of temparray) {
+            if (word !== '') {
+                newarray.push(word);
+            }
+        }
+    }
+
+    return newarray;
 };
 
 
