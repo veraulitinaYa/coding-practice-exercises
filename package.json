@@ -1,0 +1,24 @@
+{
+  "name": "coding-practice-exercises",
+  "version": "1.0.0",
+  "description": "Here I do various exercises to practise my coding",
+  "main": "ya-in-12.js",
+  "scripts": {
+   "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veraulitinaYa/coding-practice-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/veraulitinaYa/coding-practice-exercises/issues"
+  },
+  "homepage": "https://github.com/veraulitinaYa/coding-practice-exercises#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
